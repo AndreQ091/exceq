@@ -2,12 +2,14 @@
   "env": {
     "es6": true,
     "browser": true,
-    "node": true
+    "node": true,
+    "jest/globals": true
   },
   "extends": [
     "eslint:recommended",
     "google"
   ],
+  "plugins": ["jest"],
   "parser": "babel-eslint",
   "rules": {
     "linebreak-style": 0,
